@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    tab-size: 4;
+    scroll-behavior: smooth;
+}
+
+div{
+    display: block;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #243E63;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.purple {
+    color: #6415FF;
+}
+
+header {
+    height: calc(100vh - 80px);
+}
+
+#landing {
+    min-height: 100vh;
+    padding: 32px 32px 96px;
+}
+
+
+/* NAV BAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 12px;
+}
+
+.nav__logo--link {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-weight: bold;   
+    font-size: 24px;
+    color: #243E63;
+}
+
+.nav__logo--link:hover {
+    color: #6415ff;
+}
+
+
+.nav__link {
+    margin: 0 24px;
+}
+
+.nav__link--login {
+    margin: 0px 24px 0px 48px;
+}
+
+.nav__link:hover {
+    color: #6415ff;
+    text-decoration: underline #6415ff;    
+    text-underline-offset: 10px;
+}
+
+.nav__link--signup {
+    border-radius: 9999px;
+    padding: 12px 32px;
+    margin: 0;
+    background-color: #6415FF;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav__link--signup:hover {
+    background-color: #5512d9;
+    text-decoration-line: none;
+}
+
+
